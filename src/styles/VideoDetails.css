@@ -1,0 +1,65 @@
+.selected-video{
+    margin: 18px 15px;
+}
+
+.selected-video .video-player{
+    width: 100%;
+    height: 500px;
+}
+
+.selected-video .video-details{
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.video-details .video-reactions{
+    margin: 10px;
+    justify-content: end;
+}
+
+.video-details .video-title{
+    padding-bottom: 5px;
+}
+
+.video-details > div{
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1) ;
+}
+
+.video-details .video-views, .video-date {
+    color: rgba(255, 255, 255, 0.671);
+    size: 12px;
+    font-size: 15px;
+}
+.video-details .video-views{
+    letter-spacing: 1px;
+}
+.video-details .flex .seperator{
+    padding: 0 10px;
+}
+
+.video-channel .channel-title{
+    padding-left: 10px;
+    padding-top: 13px;
+}
+
+.like-icon, .dislike-icon{
+    vertical-align: text-bottom;
+    margin: 0 8px;
+    fill: rgba(255, 255, 255, 0.671);
+}
+
+.video-likes, .video-dislikes{
+    padding: 5px;
+}
+
+.blue{
+    fill: #065fd4;
+}
+
+.center-loading{
+    padding-top: 200px;
+    justify-content: center;
+}
+
+

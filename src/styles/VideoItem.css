@@ -1,0 +1,19 @@
+.video-item {
+    vertical-align: super;
+    cursor: pointer;
+    margin: 18px;
+}
+
+.video-item img {
+    max-width: 200px;
+    max-height: 250px;
+}
+
+.video-item .content{
+    padding-left: 15px;   
+}
+
+.video-item .content small{
+    color: grey;  
+}
+

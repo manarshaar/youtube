@@ -1,0 +1,41 @@
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+.main-container{
+  background-color: #181818;
+  padding-bottom: 300px;
+}
+
+.flex{
+  display: flex;
+}
+
+.container{
+  margin: auto;
+}
+
+.body-wrapper{
+  padding-top: 70px;
+  max-width: 98%;
+}
+
+.video-section{
+  flex-basis: 70%;
+}
+
+.video-list-section{
+  flex-basis: 30%;
+}
+
+@media screen and (max-width: 1350px) {
+  .body-wrapper{
+      flex-direction: column;
+  }
+
+}
+

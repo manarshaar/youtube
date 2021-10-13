@@ -1,0 +1,58 @@
+header{
+    position: fixed;
+    width: 100%;
+    height: 56px;
+    background-color: #282828;
+}
+
+.header_container{
+    line-height: 54px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_container a{
+    max-width: 1500px;
+    text-decoration: none;
+    padding: 0 13px;
+}
+
+
+header .youtube-logo img{
+    width: 100px;
+    vertical-align: middle;
+    padding-bottom: 3px;
+    
+}
+
+header li{
+    list-style: none;
+}
+
+header .right_nav img{
+    vertical-align: middle;
+    width: 20px;
+    padding-bottom: 5px;
+}
+
+@media screen and (max-width: 660px) {
+    .header_container a{
+        padding: 0 8px;
+    }
+
+    header .youtube-logo img{
+        width: 85px;
+    }
+  
+  }
+
+  @media screen and (max-width: 500px) {
+    .header_container a{
+        padding: 0 3px;
+    }
+
+    header .youtube-logo img{
+        width: 76px;
+    }
+  }
+
